@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import CalculationForm from "./components/CalculationForm.js";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    return (
+        <View style={styles.container}>
+            <Text>Test</Text>
+            <CalculationForm/>
+            <StatusBar style="auto"/>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
